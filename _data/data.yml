@@ -12,188 +12,191 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: bartkl@gmail.com
+    phone: +31 6 44 80 20 24
+    website: bartkl.github.io #do not add http://
+    linkedin: bart-kleijngeld-3a387b146
+    github: bartkl
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Dutch
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Novice
         
     interests:
-      - item: Climbing
+      - item: Philosophy and ethics
         link:
 
-      - item: Snowboarding
+      - item: Mathematics
         link:
 
-      - item: Cooking
-        link:
+      - item: Music
+        link: http://www.last.fm/user/bartkl
+
+      - item: Films
+        link: http://www.mubi.com/users/6341306
+
+      - item: Reading
+        link: https://www.goodreads.com/user/show/25204851-bart-kleijngeld
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Hello and welcome to my curriculum vitae.
 
-      Second paragraph if required.
+      I’m a software developer with a background in mathematics. A bit more about me, personally, though.
+
+      Music, film and literature provide my life with color. Furthermore I love discussing and learning about ethics, politics and philosophy.
+
+      In recent years I’ve become increasingly motivated to align my behavior with my ethical beliefs. To this end I’ve become vegan and have started donating to charity, inspired by the Effective Altruism philosophy.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Mathematics (unfinished)
+      university: Radboud Universeit Nijmegen
+      time: 2006 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        - Academic math problems can be very challenging, and because of their abstract nature they train your mind in a general sense in terms of problem modelling and solving ability.
+        - It is here that I first got in touch with programming, through a course covering programming fundamentals in C++. Thanks to learning programming fundamentals and the low-level language C++, I’ve come to appreciate and better understand some higher level concepts used today.
 
-          - Bullet point
-          - Bullet point 
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Teacher of Mathematics (2nd degree) 
+      university: Hogeschool van Arnhem en Nijmegen (HAN)
+      time: 2005 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        - I intentionally finished only the first year to obtain my “propedeuse” certificate, which allowed me to enroll at the university where I wished to study Mathematics.
+        - People chose me to do my presentation at the annual symposium, because they thought my practice lesson in class was the best. They particularly agreed that my explaining was clear and structured.
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Test Automation Developer
+      time: 2017 - 2019
+      company: Alliander
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        - I write business-friendly test suites, generic resuable test code for use in test suites and libraries to extend Robot Framework’s capabilities.
+        - I am solely responsible for maintaining the codebase in GitLab, as well as for releasing usable versions in user-friendly ways.
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Web Developer
+      time: 2016 - 2016
+      company: Ensie
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Using the Symfony framework, I developed new features for the website (on a freelance basis).
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: XSL Developer
+      time: 2015 - 2016
+      company: Clipit News
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        - Writing and maintaining XSL templates that crawled the web for news content.
+        - To improve our workflow, I turned a simple sheet into a more practical collaborative ‘todo-list-like’ system for our developers, including the automatic import of log entries from our backend software.
 
-          - Bullet point
-          - Bullet point
+    - role: Web Developer (intern)
+      time: 2013 - 2014
+      company: HostingXS / Emixion
+      details: |
+        - These companies provided internships, which I applied for since I was in need for a job. I did not hang around for long at these places.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    - role: Backend/web developer and lead service desk
+      time: 2011 - 2013
+      company: e*cube
+      details: |
+        - I wrote small BI applications using the rapid development tool Kettle.
+        - Specializing in webshops, e*cube had an impressive database setup with associated APIs. Here I learned SQL and got my first taste of programming from the MVC perspective.
+        - I’ve become fluent on the Linux command-line and also wrote some Bash scripts for system administation purposes.
+        - As the tidy perfectionist of the team, I maintained the company wiki and much of the project documentation.
+        - I took upon me most of the service desk tasks, supporting customers and keeping our backlog of reported issues orderly.
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Saturday's mailman
+      time: 2007 - 2011
+      company: TNT Post
+      details: |
+        - Every Saturday I sorted and delivered mail.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+# 
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# 
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+# 
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# 
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# 
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+# 
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+# 
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# 
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: JavaScript & React
+        level: 65%
 
-      - name: Angular
-        level: 98%
+      - name: Abstract thinking and math
+        level: 100%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Documenting and writing
+        level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: SQL and ORMs
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Linux & Shell scripting
+        level: 90%
+
+      - name: Git
+        level: 90%
+
+      - name: Robot Framework & Selenium
+        level: 100%
+
+      - name: XSL / XPath / Regular expressions
+        level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
