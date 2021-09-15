@@ -138,15 +138,32 @@ projects:
     assignments:
       - title: robotframework-excellentlibrary
         link: https://bartkl.github.io/robotframework-excellentlibrary
-        tagline: "A Robot Framework library to work with Excel 2010 (and above) files."
+        tagline: "An open-source Robot Framework library I wrote to work with Excel 2010 (and above) files."
         
       - title: robotframework-zeeplibrary
         link: https://bartkl.github.io/robotframework-zeeplibrary
-        tagline: "A Robot Framework library to test SOAP services."
+        tagline: "An open-source Robot Framework library I wrote to test SOAP services."
+
+      - title: Girandole API
+        link: https://github.com/bartkl/girandole
+        tagline: "This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).".
 
       - title: Beets (contribution)
         link: https://beets.io
-        tagline: "I contributed to this open source music organizer, providing the ability to set metadata fields on import."
+        tagline: "I contributed to this open source music organizer, providing the ability to set metadata fields when importing an album into your library."
+
+      - title: beets2mpd
+        link: https://github.com/bartkl/beets2mpd
+        tagline: "I reverse-engineered how the music player MPD caches its audio metadata, and wrote a very fast script that generates such a cache file from a given Beets database file."
+
+      - title: backup
+        link: https://github.com/bartkl/backup
+        tagline: "Backup script I wrote for an easy configurable back-up solution using Rsync."
+
+      - title: Advent of Code
+        link: https://github.com/bartkl/advent-of-code
+        tagline: "My solutions to the yearly _Advent of Code_ puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code."
+
 
 skills:
     title: Skills &amp; Proficiency
