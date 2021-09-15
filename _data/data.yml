@@ -55,7 +55,7 @@ career-profile:
     summary: |
       Hello and welcome to my curriculum vitae.
       
-      I’m Bart, and I’m a computer programmer. I like to solve complex abstract problems, and do so elegantly. I’m a perfectionist with a strong opinion, and love writing beautiful code and documentation.
+      I’m Bart, and I’m a software developer. I like to solve complex abstract problems, and do so elegantly. I’m a perfectionist with a strong opinion, and love writing beautiful code and documentation.
       
       As a colleague I view myself as someone who really likes to help others out. I’m patient, and a careful listener. I’m not very fond of chit-chat, but if we share an interest or have a similar sense of humor you’ll probably find me a lot more talkative.
       
@@ -174,8 +174,26 @@ skills:
       - name: Python
         level: 95%
 
+      - name: REST API
+        level: 85%
+
+      - name: Object Oriented Programming
+        level: 90%
+
+      - name: Functional Programming
+        level: 75%
+
+      - name: Test-Driven Development
+        level: 75%
+
+      - name: FastAPI / Pydantic
+        level: 80%
+
       - name: Kubernetes
         level: 70%
+
+      - name: Linux & Shell scripting
+        level: 90%
 
       - name: Elasticsearch & Kibana
         level: 70%
@@ -188,9 +206,6 @@ skills:
 
       - name: SQL & ORMs
         level: 75%
-
-      - name: Linux & Shell scripting
-        level: 90%
 
       - name: Git
         level: 80%
