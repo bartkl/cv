@@ -20,6 +20,8 @@ So, I wrote this script you are looking at here to achieve those two desired fea
 3. It updates the sheet with the new work.
 4. It also provides handy UI features such as automatically graying out rows if the corresponding newssource has been fixed.
 
+Also, to make it accessible to some of the less experienced users, I tried to make as much configurable through easy `Config.gs` settings as possible.
+
 ### Notes
 * I have anonimized the code completely, so all possible kinds of sensitive information have been replaced by dummy data.
 * This code is from 2016, so naturally it doesn't use the most modern of language features. Also, the Google Apps Script language and the Google Sheets API limit you in what you are able to do.
