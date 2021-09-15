@@ -47,7 +47,7 @@ sidebar:
       - item: Films
         link: http://www.mubi.com/users/6341306
 
-      - item: Reading
+      - item: Books
         link: https://www.goodreads.com/user/show/25204851-bart-kleijngeld
 
 career-profile:
@@ -55,11 +55,13 @@ career-profile:
     summary: |
       Hello and welcome to my curriculum vitae.
 
-      I’m a software developer with a background in mathematics. A bit more about me personally though.
+      I’m Bart, and I'm a computer programmer. I like to solve complex abstract problems, and do so elegantly. I'm a perfectionist with a strong opinion, and love writing beautiful code and documentation.
 
-      Music, film and literature provide my life with color. Furthermore I love discussing and learning about ethics, politics and philosophy.
+      As a colleague I view myself as someone who really likes to help others out. I'm patient, and a careful listener. I'm not very fond of chit-chat, but if we share an interest or humor you'll probably find me a lot more talkative. I love discussing and learning about ethics, politics and philosophy. Other (perhaps obvious) interests are computer science and mathematics.
 
-      In recent years I’ve become increasingly motivated to align my behavior with my ethical beliefs. To this end I’ve become vegan and have started donating to charity, inspired by the Effective Altruism philosophy.
+      I'm crazy about music and films, and I also like to read. If you're curious about my taste, please click the *Music*, *Films* and *Books* links in the *Interests* section :joy:. To prove to you I'm not a snob: I also love cartoons, like *South Park*, *Rick & Morty* and *Ren & Stimpy*. Also, I love specialty coffee (also known as [Third Wave Coffee](https://en.wikipedia.org/wiki/Third_wave_of_coffee)). Hmm, that probably made me a snob again.
+
+      If you like to contact me, please feel free to e-mail me :).
 
 education:
     - degree: Mathematics
@@ -133,7 +135,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Projects I've been working on.
+      Projects I've been working on. Some of these are open source projects I've started, others are small hobby projects that solve some use case for me personally. If I contributed to an interesting project, I'll also that here. This list is not complete, but intends to showcase only the most interesting examples of my work.
 
     assignments:
       - title: robotframework-excellentlibrary
@@ -162,51 +164,48 @@ projects:
 
       - title: Advent of Code
         link: https://github.com/bartkl/advent-of-code
-        tagline: "My solutions to the yearly _Advent of Code_ puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code."
+        tagline: "My solutions to the yearly *Advent of Code* puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code."
 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
 
     toolset:
       - name: Python
-        level: 100%
+        level: 95%
+
+      - name: Kubernetes
+        level: 70%
+
+      - name: Elasticsearch & Kibana
+        level: 70%
 
       - name: JavaScript
-        level: 100%
+        level: 80%
 
       - name: React.js
-        level: 75%
+        level: 70%
 
-      - name: Abstract problem solving
-        level: 100%
-
-      - name: Documenting and writing
-        level: 100%
-
-      - name: SQL / ORMs
+      - name: SQL & ORMs
         level: 75%
 
       - name: Linux & Shell scripting
-        level: 100%
+        level: 90%
 
       - name: Git
-        level: 75%
+        level: 80%
 
       - name: Docker
         level: 65%
 
-      - name: Jenkins
-        level: 75%
+      - name: Jenkins & Groovyscript
+        level: 70%
 
       - name: Robot Framework & Selenium
-        level: 100%
+        level: 95%
 
       - name: XSL / XPath / Regular expressions
-        level: 75%
-
-      - name: Kettle ETL
-        level: 100%
+        level: 85%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
