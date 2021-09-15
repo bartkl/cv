@@ -10,10 +10,11 @@ sidebar:
     name: A.L. Kleijngeld
     tagline: Software Developer
     avatar: megaman.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: bartkl@gmail.com
-    phone: +31 6 44 80 20 24
+    email: bartkl@protonmail.com
+    phone:
     website: bartkl.github.io
     linkedin: bart-kleijngeld-3a387b146
     github: bartkl
@@ -37,7 +38,7 @@ sidebar:
       - item: Philosophy and ethics
         link:
 
-      - item: Mathematics
+      - item: Mathematics and computer science
         link:
 
       - item: Music
@@ -81,16 +82,18 @@ experiences:
       time: 2019 - 2021
       company: Alliander
       details: |
-        - Building RESTful APIs.
-        - 
+        In team FAAM I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
+        - Building and maintaining RESTful APIs, and reusable utility packages.
+        - Improving our software and development quality, i.e. CI/CD, package management and tools such as code autoformatters.
+        - Write scripts to transform data or that make part of a machine learning pipeline.
 
     - role: Test Automation Developer
       time: 2017 - 2019
       company: Alliander
       details: |
-        - I wrote business-friendly test suites, generic resuable test code for use in test suites and libraries to extend Robot Framework’s capabilities.
-        - I've created a set of programs which aid people in the manual testing process of a . It read data from a SAP system, prefills this in Excel so the user can easily change whatever they want to, and then transform this to a SOAP message which is then sent to the target service. I created this all by myself
-        - I am solely responsible for creating and maintaining a program (including cross-platform TKL GUI) to 
+        I was part of the team responsible for managing the IT process of contractors and mechanics that had to maintain or install customer gas and electricity installations. I was responsible for taking care of automating the testing process:
+        - I wrote business-friendly test suites, generic resuable test code for use in test suites (also outside the team) and libraries to extend Robot Framework’s capabilities.
+        - I created a set of programs, including a Windows GUI, to allow manual testing flexibly. I automated fetching data from SAP and writing it to Excel sheets. Users could adjust and complete the data there, and generate or send a SOAP message with the push of a button. I was the sole maintainer of these programs, including releasing and guiding users.
 
     - role: Web Developer
       time: 2016 - 2016
@@ -103,7 +106,7 @@ experiences:
       company: Clipit News
       details: |
         - Writing and maintaining XSL templates that crawled the web for news content.
-        - To improve our workflow, I turned a simple sheet into a more practical collaborative ‘todo-list-like’ system for our developers, including the automatic import of log entries from our backend software.
+        - To improve our workflow, I turned a simple sheet into a more practical collaborative ‘todo-list-like’ system (called [The Maintenance Sheet](https://github.com/bartkl/cv/tree/master/_portfolio/the-maintenance-sheet)) for our developers, including the automatic import of log entries from our backend software. 
 
     - role: Web Developer (intern)
       time: 2013 - 2014
@@ -116,8 +119,8 @@ experiences:
       company: e*cube
       details: |
         - I wrote small BI applications using the rapid development tool Kettle.
-        - Specializing in webshops, e*cube had an impressive database setup with associated APIs. Here I learned SQL and got my first taste of programming from the MVC perspective.
-        - I’ve become fluent on the Linux command-line and also wrote some Bash scripts for system administation purposes.
+        - Specializing in webshops, e*cube had an impressive database setup with associated APIs. Here I learned SQL and got my first taste of programming from the MVC philosophy.
+        - I’ve become fluent on the Linux command-line and also wrote some shell scripts for system administation purposes.
         - As the tidy perfectionist of the team, I maintained the company wiki and much of the project documentation.
         - I took upon me most of the service desk tasks, supporting customers and keeping our backlog of reported issues orderly.
 
