@@ -146,7 +146,7 @@ projects:
 
       - title: Girandole API
         link: https://github.com/bartkl/girandole
-        tagline: "This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).".
+        tagline: "This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI)."
 
       - title: Beets (contribution)
         link: https://beets.io
