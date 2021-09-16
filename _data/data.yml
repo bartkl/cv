@@ -178,49 +178,49 @@ skills:
         level: 80%
 
       - name: Object Oriented Programming
-        level: 100%
+        level: 85%
 
       - name: Functional Programming
-        level: 80%
+        level: 75%
 
       - name: Test-Driven Development
         level: 80%
 
       - name: FastAPI / Pydantic
-        level: 100%
+        level: 90%
 
       - name: Kubernetes
-        level: 40%
+        level: 50%
 
       - name: Linux & Shell scripting
         level: 100%
 
       - name: Elasticsearch & Kibana
-        level: 40%
+        level: 45%
 
       - name: JavaScript
         level: 80%
 
       - name: React.js
-        level: 80%
+        level: 75%
 
       - name: SQL & ORMs
-        level: 80%
+        level: 85%
 
       - name: Git
-        level: 80%
+        level: 85%
 
       - name: Docker
         level: 60%
 
       - name: Jenkins & Groovyscript
-        level: 40%
+        level: 60%
 
       - name: Robot Framework & Selenium
         level: 100%
 
       - name: XSL / XPath / Regular expressions
-        level: 80%
+        level: 85%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
