@@ -164,7 +164,7 @@ projects:
 
       - title: Advent of Code
         link: https://github.com/bartkl/advent-of-code
-        tagline: My solutions to the yearly *Advent of Code* puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code.
+        tagline: My solutions to the yearly Advent of Code puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code.
 
 
 skills:
