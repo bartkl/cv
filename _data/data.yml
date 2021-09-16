@@ -187,13 +187,13 @@ skills:
         level: 66%
 
       - name: FastAPI / Pydantic
-        level: 66%
+        level: 100%
 
       - name: Kubernetes
         level: 33%
 
       - name: Linux & Shell scripting
-        level: 66%
+        level: 100%
 
       - name: Elasticsearch & Kibana
         level: 33%
