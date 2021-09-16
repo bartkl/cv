@@ -29,6 +29,14 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    .skillset .level-title {
+        width: 75%;
+    }
+
+    .skillset .level-bar {
+        width: 25%;
+    }
+
 
 }
 
@@ -38,13 +46,13 @@
     .skillset .level-title {
         display: inline-block;
         float: left;
-        width: 30%;
+        width: 75%;
         margin-bottom: 0;
     }
 
     .skillset .level-bar {
         display: inline-block;
-        width: 70%;
+        width: 25%;
         float: left;
         position: relative;
         top: 1px;
