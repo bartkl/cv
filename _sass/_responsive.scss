@@ -24,11 +24,6 @@
         margin-bottom: 0;
     }
 
-
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
     .skillset .level-title {
         width: 75%;
     }
@@ -39,6 +34,10 @@
     }
 
 
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 }
 
 /* Medium devices (desktops, 992px and up) */
