@@ -7,7 +7,7 @@ sidebar:
     education: True  # set to `False' if you want education in main section instead of in sidebar
 
     # Profile information
-    name: A.L. Kleijngeld
+    name: Bart Kleijngeld
     tagline: Software Developer
     avatar: megaman.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
@@ -81,10 +81,10 @@ education:
 
 experiences:
     - role: Backend Developer
-      time: 2019 - 2021
+      time: 2019 - now
       company: Alliander
       details: |
-        In team FAAM I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
+        In this team I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
         - Building and maintaining RESTful APIs, and reusable utility packages.
         - Improving our software and development quality, i.e. CI/CD, package management and tools such as code autoformatters.
         - Write scripts to transform data or that make part of a machine learning pipeline.
