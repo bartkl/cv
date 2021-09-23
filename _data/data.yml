@@ -138,17 +138,21 @@ projects:
       Projects I've been working on. Some of these are open source projects I've started, others are small hobby projects that solve some use case for me personally. If I contributed to an interesting project, I'll also that here. This list is not complete, but intends to showcase only the most interesting examples of my work.
 
     assignments:
+      - title: Girandole API
+        link: https://github.com/bartkl/girandole
+        tagline: This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
+
       - title: robotframework-excellentlibrary
         link: https://bartkl.github.io/robotframework-excellentlibrary
         tagline: An open-source Robot Framework library I wrote to work with Excel 2010 (and above) files.
+
+      - title: backup
+        link: https://github.com/bartkl/backup
+        tagline: Backup script I wrote for an easy configurable back-up solution using Rsync.
         
       - title: robotframework-zeeplibrary
         link: https://bartkl.github.io/robotframework-zeeplibrary
         tagline: An open-source Robot Framework library I wrote to test SOAP services.
-
-      - title: Girandole API
-        link: https://github.com/bartkl/girandole
-        tagline: This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
 
       - title: Beets (contribution)
         link: https://beets.io
@@ -157,10 +161,6 @@ projects:
       - title: beets2mpd
         link: https://github.com/bartkl/beets2mpd
         tagline: I reverse-engineered how the music player MPD caches its audio metadata, and wrote a very fast script that generates such a cache file from a given Beets database file.
-
-      - title: backup
-        link: https://github.com/bartkl/backup
-        tagline: Backup script I wrote for an easy configurable back-up solution using Rsync.
 
       - title: Advent of Code
         link: https://github.com/bartkl/advent-of-code
