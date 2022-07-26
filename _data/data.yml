@@ -80,8 +80,16 @@ education:
         - People chose me to do my presentation at the annual symposium, because they thought my practice lesson in class was the best. They particularly agreed that my explaining was clear and structured.
 
 experiences:
+    - role: Data Architect & Software Engineer
+      time: 2022 - now
+      company: Alliander
+      details: |
+        I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
+        - I am one of the core developers of the Alliander Open Source project Metamorph (written in Clojure), which allows the generation of a variety of schemas from a data model designed by a Data Architect.
+        - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
+
     - role: Backend Developer
-      time: 2019 - now
+      time: 2019 - 2022
       company: Alliander
       details: |
         In this team I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
@@ -135,16 +143,16 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Projects I've been working on. Some of these are open source projects I've started, others are small hobby projects that solve some use case for me personally. If I contributed to an interesting project, I'll also that here. This list is not complete, but intends to showcase only the most interesting examples of my work.
+      The most noteworthy projects I've worked on with varying degrees of involvement.
 
     assignments:
-      - title: Girandole API
-        link: https://github.com/bartkl/girandole
-        tagline: This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
-
       - title: Metamorph
         link: https://github.com/alliander-opensource/metamorph
-        tagline: Metamorph is a Clojure libary that allows the generation of a variety of schemas from a DX-PROF profile using Semantic Web technology. I am one of the core maintainers.
+        tagline: Metamorph is a libary that allows the generation of a variety of schemas from a semantic (logical) data model. It uses Semantic Web technology and is written in Clojure. I am one of the core maintainers.
+
+      - title: Girandole API
+        link: https://github.com/bartkl/girandole
+        tagline: This is an API I built on top of the Beets music organizer. It's a modern alternative to its standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
 
       - title: robotframework-excellentlibrary
         link: https://bartkl.github.io/robotframework-excellentlibrary
@@ -152,12 +160,8 @@ projects:
 
       - title: backup
         link: https://github.com/bartkl/backup
-        tagline: Backup script I wrote for an easy configurable back-up solution using Rsync.
+        tagline: A backup script I wrote for an easy configurable back-up solution using Rsync.
         
-      - title: robotframework-zeeplibrary
-        link: https://bartkl.github.io/robotframework-zeeplibrary
-        tagline: An open-source Robot Framework library I wrote to test SOAP services.
-
       - title: Beets (contribution)
         link: https://beets.io
         tagline: I contributed to this open source music organizer, providing the ability to set metadata fields when importing an album into your library.
@@ -181,32 +185,20 @@ skills:
       - name: Clojure
         level: 75%
 
-      - name: REST API
+      - name: Semantic Web / RDF
         level: 66%
 
       - name: Object Oriented Programming
         level: 100%
 
       - name: Functional Programming
-        level: 66%
-
-      - name: Data Oriented Programming
         level: 75%
-
-      - name: Test-Driven Development
-        level: 66%
 
       - name: FastAPI / Pydantic
         level: 100%
 
-      - name: Kubernetes
-        level: 33%
-
       - name: Linux & Shell Scripting
         level: 100%
-
-      - name: Elasticsearch & Kibana
-        level: 33%
 
       - name: JavaScript
         level: 66%
@@ -218,25 +210,22 @@ skills:
         level: 66%
 
       - name: SQL & ORMs
-        level: 66%
+        level: 75%
 
       - name: Git
         level: 100%
 
       - name: Docker
+        level: 75%
+
+      - name: CI / CD
         level: 66%
 
-      - name: Jenkins & Groovyscript
-        level: 66%
-
-      - name: Robot Framework & Selenium
+      - name: Robot Framework
         level: 100%
 
       - name: XSL / XPath / Regular Expressions
-        level: 66%
-
-      - name: Semantic Web / RDF
-        level: 66%
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
