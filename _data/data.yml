@@ -116,7 +116,7 @@ experiences:
       details: |
         - These companies provided internships, which I applied for since I was in need for a job. I did not hang around for long at these places.
 
-    - role: Backend/web developer and lead service desk
+    - role: Backend/Web Developer and Lead Service Desk
       time: 2011 - 2013
       company: e*cube
       details: |
@@ -126,7 +126,7 @@ experiences:
         - As the tidy perfectionist of the team, I maintained the company wiki and much of the project documentation.
         - I took upon me most of the service desk tasks, supporting customers and keeping our backlog of reported issues orderly.
 
-    - role: Saturday's mailman
+    - role: Mailman
       time: 2007 - 2011
       company: TNT Post
       details: |
@@ -141,6 +141,10 @@ projects:
       - title: Girandole API
         link: https://github.com/bartkl/girandole
         tagline: This is an API I built on top of Beets. It's a modern alternative to the standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
+
+      - title: Metamorph
+        link: https://github.com/alliander-opensource/metamorph
+        tagline: Metamorph is a Clojure libary that allows the generation of a variety of schemas from a DX-PROF profile using Semantic Web technology. I am one of the core maintainers.
 
       - title: robotframework-excellentlibrary
         link: https://bartkl.github.io/robotframework-excellentlibrary
@@ -174,6 +178,9 @@ skills:
       - name: Python
         level: 100%
 
+      - name: Clojure
+        level: 75%
+
       - name: REST API
         level: 66%
 
@@ -182,6 +189,9 @@ skills:
 
       - name: Functional Programming
         level: 66%
+
+      - name: Data Oriented Programming
+        level: 75%
 
       - name: Test-Driven Development
         level: 66%
@@ -192,13 +202,16 @@ skills:
       - name: Kubernetes
         level: 33%
 
-      - name: Linux & Shell scripting
+      - name: Linux & Shell Scripting
         level: 100%
 
       - name: Elasticsearch & Kibana
         level: 33%
 
       - name: JavaScript
+        level: 66%
+
+      - name: Kotlin
         level: 66%
 
       - name: React.js
@@ -219,7 +232,10 @@ skills:
       - name: Robot Framework & Selenium
         level: 100%
 
-      - name: XSL / XPath / Regular expressions
+      - name: XSL / XPath / Regular Expressions
+        level: 66%
+
+      - name: Semantic Web / RDF
         level: 66%
 
 footer: >
