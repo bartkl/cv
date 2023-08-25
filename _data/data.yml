@@ -84,7 +84,7 @@ experiences:
         I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
         - I developed an open source project called Metamorph (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
         - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
-	- I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
+        - I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
 
     - role: Software Engineer (Backend)
       time: 2019 - 2022
