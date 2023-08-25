@@ -1,8 +1,9 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     # about: True  # set to `False' or comment line if you want to remove the "how to use?" in the sidebar
     education: True  # set to `False' if you want education in main section instead of in sidebar
 
@@ -13,16 +14,24 @@ sidebar:
     avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+<<<<<<< HEAD
     email: bartkl@protonmail.com
     phone:
+    timezone: Europe/Amsterdam
     website: bartkl.github.io
     linkedin: bart-kleijngeld-3a387b146
     github: bartkl
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    telegram: @bartkl
+=======
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    goodreads: 25204851/bart-kleijngeld
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: Dutch
@@ -85,7 +94,7 @@ experiences:
       company: Alliander
       details: |
         I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
-        - I developed an open source project called `shacl->avro` (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
+        - I developed an open source project called Metamorph (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
         - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
 	- I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
 
@@ -141,15 +150,14 @@ experiences:
       details: |
         - Every Saturday I sorted and delivered mail.
 
-projects:
+oss:
     title: Projects
     intro: >
       The most noteworthy projects I've worked on with varying degrees of involvement.
-
-    assignments:
-      - title: `shacl->avro`
-        link: https://github.com/bartkl/shacl->avro
-        tagline: `shacl->avro` is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.
+    contributions:
+      - title: Metamorph
+        link: https://github.com/bartkl/metamorph
+        tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.
 
       - title: Girandole API
         link: https://github.com/bartkl/girandole
@@ -174,7 +182,6 @@ projects:
       - title: Advent of Code
         link: https://github.com/bartkl/advent-of-code
         tagline: My solutions to the yearly Advent of Code puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code.
-
 
 skills:
     title: Skills & Proficiency
