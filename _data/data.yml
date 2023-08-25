@@ -142,11 +142,11 @@ experiences:
           details: |
             - Every Saturday I sorted and delivered mail.
 
-oss:
-    title: Open Source Projects
+projects:
+    title: Projects
     intro: >
-      The most noteworthy projects I've worked on with varying degrees of involvement.
-    contributions:
+      The most noteworthy open source projects I've worked on with varying degrees of involvement.
+    assignments:
         - title: Metamorph
           link: https://github.com/bartkl/metamorph
           tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.

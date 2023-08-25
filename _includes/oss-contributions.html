@@ -16,8 +16,9 @@
   <!--//intro-->
   {% endif %}
 
+  <ul>
   {% for contribution in oss.contributions %}
-  <div class="item">
+  <li class="item">
 
     <span class="project-title">
       {% if contribution.link %}
@@ -31,9 +32,10 @@
     - <span class="project-tagline">{{ contribution.tagline }}</span>
     {% endif %}
 
-  </div>
+  </li>
   <!--//item-->
   {% endfor %}
+  </ul>
 
 </section>
 <!--//section-->
