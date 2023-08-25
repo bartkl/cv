@@ -14,7 +14,6 @@ sidebar:
     avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-<<<<<<< HEAD
     email: bartkl@protonmail.com
     phone:
     timezone: Europe/Amsterdam
@@ -22,14 +21,6 @@ sidebar:
     linkedin: bart-kleijngeld-3a387b146
     github: bartkl
     telegram: @bartkl
-=======
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
     goodreads: 25204851/bart-kleijngeld
     pdf: http://www.africau.edu/images/default/sample.pdf
 
@@ -39,9 +30,6 @@ sidebar:
 
       - idiom: English
         level: Fluent
-
-      - idiom: German
-        level: Novice
         
     interests:
       - item: Philosophy and ethics
@@ -151,7 +139,7 @@ experiences:
         - Every Saturday I sorted and delivered mail.
 
 oss:
-    title: Projects
+    title: Open Source Projects
     intro: >
       The most noteworthy projects I've worked on with varying degrees of involvement.
     contributions:
