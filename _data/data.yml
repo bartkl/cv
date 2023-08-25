@@ -149,7 +149,7 @@ oss:
     contributions:
         - title: Metamorph
           link: https://github.com/bartkl/metamorph
-          tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical data model expressed in SHACL. It uses Semantic Web technology and is written in Clojure. An earlier version of this project was written in functional style Kotlin. You can find that source code [here](https://github.com/bartkl/SchemaTransformer/tree/master/).
+          tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical data model expressed in SHACL. It uses Semantic Web technology and is written in Clojure. An earlier version of this project was written in functional style Kotlin. If you wish to see that code please contact me.
         - title: Girandole API
           link: https://github.com/bartkl/girandole
           tagline: This is an API I built on top of the Beets music organizer. It's a modern alternative to its standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
