@@ -29,7 +29,7 @@
     </span>
 
     {% if contribution.tagline %}
-    - <span class="project-tagline">{{ contribution.tagline }}</span>
+    - <span class="project-tagline">{{ contribution.tagline | markdownify }}</span>
     {% endif %}
 
   </div>
