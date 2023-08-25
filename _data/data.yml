@@ -81,7 +81,7 @@ education:
 experiences:
     title: Experiences
     info:
-        - role: Data Architect / Software Engineer
+        - role: Software Engineer / Data Architect
           time: 2022 - now
           company: Alliander
           details: |
@@ -179,29 +179,29 @@ skills:
     title: Skills & Proficiency
 
     toolset:
-        - name: Python
-          level: 100%
-
-        - name: Clojure
-          level: 75%
-
         - name: Semantic Web / RDF / Linked Data
-          level: 66%
-
-        - name: Object Oriented Programming
           level: 100%
 
         - name: Functional Programming
           level: 75%
 
-        - name: Data modeling
-          level: 75%
-
-        - name: Graph databases
+        - name: Data Mesh
           level: 66%
 
-        - name: FastAPI / Pydantic
+        - name: Clojure
+          level: 75%
+
+        - name: Python / FastAPI / Pydantic
           level: 100%
+
+        - name: Data Modeling
+          level: 66%
+
+        - name: SQL & ORMs
+          level: 75%
+
+        - name: Graph Databases
+          level: 66%
 
         - name: Linux & Shell Scripting
           level: 100%
@@ -212,23 +212,14 @@ skills:
         - name: Kotlin
           level: 66%
 
-        - name: React.js
-          level: 66%
-
-        - name: SQL & ORMs
-          level: 75%
-
         - name: Git
           level: 100%
 
         - name: Docker
           level: 75%
 
-        - name: CI / CD
+        - name: CI/CD
           level: 66%
-
-        - name: Robot Framework
-          level: 100%
 
         - name: XSL / XPath / Regular Expressions
           level: 75%
