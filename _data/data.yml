@@ -55,11 +55,11 @@ career-profile:
     summary: |
       Hello and welcome to my curriculum vitae.
       
-      I’m Bart, and I’m a software developer. I like to solve complex abstract problems, and do so elegantly. I’m a perfectionist with a strong opinion, and love writing beautiful code and documentation.
+      I’m Bart, a software engineer and data architect. I like to solve complex abstract problems, and do so elegantly. I’m a perfectionist with a strong opinion and love writing beautiful code and documentation.
       
-      As a colleague I view myself as someone who really likes to help others out. I’m patient, and a careful listener. I’m not very fond of chit-chat, but if we share an interest or have a similar sense of humor you’ll probably find me a lot more talkative.
+      As a colleague I really like helping others. I’m patient and a careful listener. I’m not very fond of chit-chat, but if we share an interest or have a similar sense of humor you’ll probably find me a lot more talkative.
       
-      I love discussing ethics, politics and philosophy. Other (perhaps obvious) interests are computer science and mathematics. I’m crazy about music and film, and I also like to read. If you’re curious about my taste, please click the *Music*, *Films* and *Books* links in the *Interests* section. And to prove to you I’m not a snob: I also like cartoons.
+      I love discussing deeper philosophical and scientific topics. Other (perhaps obvious) interests are computer science and mathematics. I’m crazy about music and film, and I also like to read. If you’re curious about my taste, please click the *Music*, *Films* and *Books* links in the *Interests* section. And to prove to you I’m not a snob: I also like cartoons (but only the good ones).
       
       If you think there's a nice opportunity to work together, or even if you share some of my interests and would like to chat, please feel free to drop me an e-mail. I would love to get to know you better.
 
@@ -80,15 +80,16 @@ education:
         - People chose me to do my presentation at the annual symposium, because they thought my practice lesson in class was the best. They particularly agreed that my explaining was clear and structured.
 
 experiences:
-    - role: Data Architect & Software Engineer
+    - role: Data Architect / Software Engineer
       time: 2022 - now
       company: Alliander
       details: |
         I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
-        - I am one of the core developers of the Alliander Open Source project Metamorph (written in Clojure), which allows the generation of a variety of schemas from a data model designed by a Data Architect.
+        - I developed an open source project called `shacl->avro` (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
         - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
+	- I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
 
-    - role: Backend Developer
+    - role: Software Engineer (Backend)
       time: 2019 - 2022
       company: Alliander
       details: |
@@ -97,7 +98,7 @@ experiences:
         - Improving our software and development quality, i.e. CI/CD, package management and tools such as code autoformatters.
         - Write scripts to transform data or that make part of a machine learning pipeline.
 
-    - role: Test Automation Developer
+    - role: Test Automation Developer / Software Engineer
       time: 2017 - 2019
       company: Alliander
       details: |
@@ -146,9 +147,9 @@ projects:
       The most noteworthy projects I've worked on with varying degrees of involvement.
 
     assignments:
-      - title: Metamorph
-        link: https://github.com/alliander-opensource/metamorph
-        tagline: Metamorph is a libary that allows the generation of a variety of schemas from a semantic (logical) data model. It uses Semantic Web technology and is written in Clojure. I am one of the core maintainers.
+      - title: `shacl->avro`
+        link: https://github.com/bartkl/shacl->avro
+        tagline: `shacl->avro` is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.
 
       - title: Girandole API
         link: https://github.com/bartkl/girandole
@@ -185,7 +186,7 @@ skills:
       - name: Clojure
         level: 75%
 
-      - name: Semantic Web / RDF
+      - name: Semantic Web / RDF / Linked Data
         level: 66%
 
       - name: Object Oriented Programming
@@ -193,6 +194,12 @@ skills:
 
       - name: Functional Programming
         level: 75%
+
+      - name: Data modeling
+        level: 75%
+
+      - name: Graph databases
+        level: 66%
 
       - name: FastAPI / Pydantic
         level: 100%
