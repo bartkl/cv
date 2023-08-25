@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Bart Kleijngeld
-    tagline: Software Developer
+    tagline: Software Engineer / Data Architect
     avatar: megaman.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -61,173 +61,177 @@ career-profile:
       If you think there's a nice opportunity to work together, or even if you share some of my interests and would like to chat, please feel free to drop me an e-mail. I would love to get to know you better.
 
 education:
-    - degree: Mathematics
-      university: Radboud Universeit Nijmegen
-      time: 2006 - 2011
-      details: |
-        - Academic math problems can be very challenging, and because of their abstract nature they train your mind in a general sense in terms of problem modelling and solving ability.
-        - It is here that I first got in touch with programming, through a course covering programming fundamentals in C++. Thanks to learning programming fundamentals and the low-level language C++, I’ve come to appreciate and better understand some higher level concepts used today.
-
-
-    - degree: Teacher of Mathematics (2nd degree) 
-      university: Hogeschool van Arnhem en Nijmegen (HAN)
-      time: 2005 - 2006
-      details: |
-        - I intentionally finished only the first year to obtain my “propedeuse” certificate, which allowed me to enroll at the university where I wished to study Mathematics.
-        - People chose me to do my presentation at the annual symposium, because they thought my practice lesson in class was the best. They particularly agreed that my explaining was clear and structured.
+    title: Education
+    info:
+        - degree: Mathematics
+          university: Radboud Universeit Nijmegen
+          time: 2006 - 2011
+          details: |
+            - Academic math problems can be very challenging, and because of their abstract nature they train your mind in a general sense in terms of problem modelling and solving ability.
+            - It is here that I first got in touch with programming, through a course covering programming fundamentals in C++. Thanks to learning programming fundamentals and the low-level language C++, I’ve come to appreciate and better understand some higher level concepts used today.
+  
+  
+        - degree: Teacher of Mathematics (2nd degree) 
+          university: Hogeschool van Arnhem en Nijmegen (HAN)
+          time: 2005 - 2006
+          details: |
+            - I intentionally finished only the first year to obtain my “propedeuse” certificate, which allowed me to enroll at the university where I wished to study Mathematics.
+            - People chose me to do my presentation at the annual symposium, because they thought my practice lesson in class was the best. They particularly agreed that my explaining was clear and structured.
 
 experiences:
-    - role: Data Architect / Software Engineer
-      time: 2022 - now
-      company: Alliander
-      details: |
-        I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
-        - I developed an open source project called Metamorph (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
-        - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
-        - I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
+    title: Experiences
+    info:
+        - role: Data Architect / Software Engineer
+          time: 2022 - now
+          company: Alliander
+          details: |
+            I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
+            - I developed an open source project called Metamorph (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
+            - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
+            - I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical models in a closed world.
 
-    - role: Software Engineer (Backend)
-      time: 2019 - 2022
-      company: Alliander
-      details: |
-        In this team I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
-        - Building and maintaining RESTful APIs, and reusable utility packages.
-        - Improving our software and development quality, i.e. CI/CD, package management and tools such as code autoformatters.
-        - Write scripts to transform data or that make part of a machine learning pipeline.
+        - role: Software Engineer (Backend)
+          time: 2019 - 2022
+          company: Alliander
+          details: |
+            In this team I helped realizing image recognition solutions. We trained object detection models to recognize gas and electricity meters, their readings and other related componenets. What I did mostly was:
+            - Building and maintaining RESTful APIs, and reusable utility packages.
+            - Improving our software and development quality, i.e. CI/CD, package management and tools such as code autoformatters.
+            - Write scripts to transform data or that make part of a machine learning pipeline.
 
-    - role: Test Automation Developer / Software Engineer
-      time: 2017 - 2019
-      company: Alliander
-      details: |
-        I was part of the team responsible for managing the IT process of contractors and mechanics that had to maintain or install customer gas and electricity installations. I was responsible for taking care of automating the testing process:
-        - I wrote business-friendly test suites, generic resuable test code for use in test suites (also outside the team) and libraries to extend Robot Framework’s capabilities.
-        - I created a set of programs, including a Windows GUI, to allow manual testing flexibly. I automated fetching data from SAP and writing it to Excel sheets. Users could adjust and complete the data there, and generate or send a SOAP message with the push of a button. I was the sole maintainer of these programs, including releasing and guiding users.
+        - role: Test Automation Developer / Software Engineer
+          time: 2017 - 2019
+          company: Alliander
+          details: |
+            I was part of the team responsible for managing the IT process of contractors and mechanics that had to maintain or install customer gas and electricity installations. I was responsible for taking care of automating the testing process:
+            - I wrote business-friendly test suites, generic resuable test code for use in test suites (also outside the team) and libraries to extend Robot Framework’s capabilities.
+            - I created a set of programs, including a Windows GUI, to allow manual testing flexibly. I automated fetching data from SAP and writing it to Excel sheets. Users could adjust and complete the data there, and generate or send a SOAP message with the push of a button. I was the sole maintainer of these programs, including releasing and guiding users.
 
-    - role: Web Developer
-      time: 2016 - 2016
-      company: Ensie
-      details: |
-        Using the Symfony framework, I developed new features for the website (on a freelance basis).
+        - role: Web Developer
+          time: 2016 - 2016
+          company: Ensie
+          details: |
+            Using the Symfony framework, I developed new features for the website (on a freelance basis).
 
-    - role: XSL Developer
-      time: 2015 - 2016
-      company: Clipit News
-      details: |
-        - Writing and maintaining XSL templates that crawled the web for news content.
-        - To improve our workflow, I turned a simple sheet into a more practical collaborative ‘todo-list-like’ system (called [The Maintenance Sheet](https://github.com/bartkl/cv/tree/master/_portfolio/the-maintenance-sheet)) for our developers, including the automatic import of log entries from our backend software. 
+        - role: XSL Developer
+          time: 2015 - 2016
+          company: Clipit News
+          details: |
+            - Writing and maintaining XSL templates that crawled the web for news content.
+            - To improve our workflow, I turned a simple sheet into a more practical collaborative ‘todo-list-like’ system (called [The Maintenance Sheet](https://github.com/bartkl/cv/tree/master/_portfolio/the-maintenance-sheet)) for our developers, including the automatic import of log entries from our backend software. 
 
-    - role: Web Developer (intern)
-      time: 2013 - 2014
-      company: HostingXS / Emixion
-      details: |
-        - These companies provided internships, which I applied for since I was in need for a job. I did not hang around for long at these places.
+        - role: Web Developer (intern)
+          time: 2013 - 2014
+          company: HostingXS / Emixion
+          details: |
+            - These companies provided internships, which I applied for since I was in need for a job. I did not hang around for long at these places.
 
-    - role: Backend/Web Developer and Lead Service Desk
-      time: 2011 - 2013
-      company: e*cube
-      details: |
-        - I wrote small BI applications using the rapid development tool Kettle.
-        - Specializing in webshops, e*cube had an impressive database setup with associated APIs. Here I learned SQL and got my first taste of programming from the MVC philosophy.
-        - I’ve become fluent on the Linux command-line and also wrote some shell scripts for system administation purposes.
-        - As the tidy perfectionist of the team, I maintained the company wiki and much of the project documentation.
-        - I took upon me most of the service desk tasks, supporting customers and keeping our backlog of reported issues orderly.
+        - role: Backend/Web Developer and Lead Service Desk
+          time: 2011 - 2013
+          company: e*cube
+          details: |
+            - I wrote small BI applications using the rapid development tool Kettle.
+            - Specializing in webshops, e*cube had an impressive database setup with associated APIs. Here I learned SQL and got my first taste of programming from the MVC philosophy.
+            - I’ve become fluent on the Linux command-line and also wrote some shell scripts for system administation purposes.
+            - As the tidy perfectionist of the team, I maintained the company wiki and much of the project documentation.
+            - I took upon me most of the service desk tasks, supporting customers and keeping our backlog of reported issues orderly.
 
-    - role: Mailman
-      time: 2007 - 2011
-      company: TNT Post
-      details: |
-        - Every Saturday I sorted and delivered mail.
+        - role: Mailman
+          time: 2007 - 2011
+          company: TNT Post
+          details: |
+            - Every Saturday I sorted and delivered mail.
 
 oss:
     title: Open Source Projects
     intro: >
       The most noteworthy projects I've worked on with varying degrees of involvement.
     contributions:
-      - title: Metamorph
-        link: https://github.com/bartkl/metamorph
-        tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.
+        - title: Metamorph
+          link: https://github.com/bartkl/metamorph
+          tagline: Metamorph is a libary that enables the generation of Avro schemas from a logical model expressed in SHACL. It uses Semantic Web technology and is written in Clojure.
 
-      - title: Girandole API
-        link: https://github.com/bartkl/girandole
-        tagline: This is an API I built on top of the Beets music organizer. It's a modern alternative to its standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
+        - title: Girandole API
+          link: https://github.com/bartkl/girandole
+          tagline: This is an API I built on top of the Beets music organizer. It's a modern alternative to its standard Web plugin, extending its capabilities as well as being built in a more modern framework (FastAPI).
 
-      - title: robotframework-excellentlibrary
-        link: https://bartkl.github.io/robotframework-excellentlibrary
-        tagline: An open-source Robot Framework library I wrote to work with Excel 2010 (and above) files.
+        - title: robotframework-excellentlibrary
+          link: https://bartkl.github.io/robotframework-excellentlibrary
+          tagline: An open-source Robot Framework library I wrote to work with Excel 2010 (and above) files.
 
-      - title: backup
-        link: https://github.com/bartkl/backup
-        tagline: A backup script I wrote for an easy configurable back-up solution using Rsync.
-        
-      - title: Beets (contribution)
-        link: https://beets.io
-        tagline: I contributed to this open source music organizer, providing the ability to set metadata fields when importing an album into your library.
+        - title: backup
+          link: https://github.com/bartkl/backup
+          tagline: A backup script I wrote for an easy configurable back-up solution using Rsync.
+          
+        - title: Beets (contribution)
+          link: https://beets.io
+          tagline: I contributed to this open source music organizer, providing the ability to set metadata fields when importing an album into your library.
 
-      - title: beets2mpd
-        link: https://github.com/bartkl/beets2mpd
-        tagline: I reverse-engineered how the music player MPD caches its audio metadata, and wrote a very fast script that generates such a cache file from a given Beets database file.
+        - title: beets2mpd
+          link: https://github.com/bartkl/beets2mpd
+          tagline: I reverse-engineered how the music player MPD caches its audio metadata, and wrote a very fast script that generates such a cache file from a given Beets database file.
 
-      - title: Advent of Code
-        link: https://github.com/bartkl/advent-of-code
-        tagline: My solutions to the yearly Advent of Code puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code.
+        - title: Advent of Code
+          link: https://github.com/bartkl/advent-of-code
+          tagline: My solutions to the yearly Advent of Code puzzles. Each year has its own branch. These are complicated problems you have to solve as quickly as you can, so please don't expect beautiful code.
 
 skills:
     title: Skills & Proficiency
 
     toolset:
-      - name: Python
-        level: 100%
+        - name: Python
+          level: 100%
 
-      - name: Clojure
-        level: 75%
+        - name: Clojure
+          level: 75%
 
-      - name: Semantic Web / RDF / Linked Data
-        level: 66%
+        - name: Semantic Web / RDF / Linked Data
+          level: 66%
 
-      - name: Object Oriented Programming
-        level: 100%
+        - name: Object Oriented Programming
+          level: 100%
 
-      - name: Functional Programming
-        level: 75%
+        - name: Functional Programming
+          level: 75%
 
-      - name: Data modeling
-        level: 75%
+        - name: Data modeling
+          level: 75%
 
-      - name: Graph databases
-        level: 66%
+        - name: Graph databases
+          level: 66%
 
-      - name: FastAPI / Pydantic
-        level: 100%
+        - name: FastAPI / Pydantic
+          level: 100%
 
-      - name: Linux & Shell Scripting
-        level: 100%
+        - name: Linux & Shell Scripting
+          level: 100%
 
-      - name: JavaScript
-        level: 66%
+        - name: JavaScript
+          level: 66%
 
-      - name: Kotlin
-        level: 66%
+        - name: Kotlin
+          level: 66%
 
-      - name: React.js
-        level: 66%
+        - name: React.js
+          level: 66%
 
-      - name: SQL & ORMs
-        level: 75%
+        - name: SQL & ORMs
+          level: 75%
 
-      - name: Git
-        level: 100%
+        - name: Git
+          level: 100%
 
-      - name: Docker
-        level: 75%
+        - name: Docker
+          level: 75%
 
-      - name: CI / CD
-        level: 66%
+        - name: CI / CD
+          level: 66%
 
-      - name: Robot Framework
-        level: 100%
+        - name: Robot Framework
+          level: 100%
 
-      - name: XSL / XPath / Regular Expressions
-        level: 75%
+        - name: XSL / XPath / Regular Expressions
+          level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
