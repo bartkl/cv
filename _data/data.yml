@@ -72,7 +72,6 @@ education:
             - Academic math problems can be very challenging, and because of their abstract nature they train your mind in a general sense in terms of problem modelling and solving ability.
             - It is here that I first got in touch with programming, through a course covering programming fundamentals in C++. Thanks to learning programming fundamentals and the low-level language C++, I’ve come to appreciate and better understand some higher level concepts used today.
   
-  
         - degree: Teacher of Mathematics (2nd degree) 
           university: Hogeschool van Arnhem en Nijmegen (HAN)
           time: 2005 - 2006
@@ -88,8 +87,8 @@ experiences:
           company: Alliander
           details: |
             - I've collaborated with other architects and teams to implement a Data Mesh architecture in the organization. Thanks to my technical background, I can speak the language of both business and IT, which really helps to bridge the gap.
-           - I am one of the few experts in using the Semantic Web technology stack for our data and information modeling to facilitate strong and formal semantics, flexible decoupling of conceptual from logical data models and to enable code generation, etc.
-           - I've developed the Metamorph project (written in Clojure), which generates technical schemas from a logical data model in SHACL.
+            - I am one of the few experts in using the Semantic Web technology stack for our data and information modeling to facilitate strong and formal semantics, flexible decoupling of conceptual from logical data models and to enable code generation, etc.
+            - I've developed the Metamorph project (written in Clojure), which generates technical schemas from a logical data model in SHACL.
 
         - role: Software Engineer (Backend)
           time: 2019 - 2022
@@ -180,46 +179,37 @@ skills:
 
     toolset:
         - name: Semantic Web / RDF / Linked Data
+          level: 90%%
+
+        - name: Formal Knowledge Representation / Conceptual Modeling
+          level: 75%%
+
+        - name: Data Modeling
           level: 75%
 
-        - name: Functional Programming
-          level: 75%
+        - name: Knowledge Graphs
+          level: 66%%
 
         - name: Data Mesh
           level: 66%
 
-        - name: Clojure
-          level: 75%
-
         - name: Python / FastAPI / Pydantic
           level: 100%
 
-        - name: Data Modeling
-          level: 66%
+        - name: Functional Programming
+          level: 75%
+
+        - name: Clojure
+          level: 75%
 
         - name: SQL & ORMs
           level: 75%
 
-        - name: Graph Databases
-          level: 66%
-
         - name: Linux & Shell Scripting
           level: 100%
 
-        - name: JavaScript
-          level: 66%
-
-        - name: Kotlin
-          level: 66%
-
         - name: Git
           level: 100%
-
-        - name: Docker
-          level: 75%
-
-        - name: CI/CD
-          level: 66%
 
         - name: XSL / XPath / Regular Expressions
           level: 75%
