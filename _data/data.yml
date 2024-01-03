@@ -179,16 +179,16 @@ skills:
 
     toolset:
         - name: Semantic Web / RDF / Linked Data
-          level: 90%%
+          level: 90%
 
         - name: Formal Knowledge Representation / Conceptual Modeling
-          level: 75%%
+          level: 75%
 
         - name: Data Modeling
           level: 75%
 
         - name: Knowledge Graphs
-          level: 66%%
+          level: 66%
 
         - name: Data Mesh
           level: 66%
