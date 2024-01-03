@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Bart Kleijngeld
-    tagline: Software Engineer / Data Architect
+    tagline: Data Architect / Software Developer
     avatar: megaman.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     avatar: bart.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -51,8 +51,10 @@ career-profile:
     title: Introduction
     summary: |
       Hello and welcome to my curriculum vitae.
-      
-      I’m Bart, a software engineer and data architect. I like to solve complex abstract problems, and do so elegantly. I’m a perfectionist with a strong opinion and love writing beautiful code and documentation.
+
+      I am Bart, a data architect with many years of programming experience, and it is my passion to create a Linked Data world where data is findable, accessible, interoperable and reusable (FAIR). Let me help you create, maintain and make use of ontologies to formally describe your data in a machine-readable way; to make the right architectural choices to prevent bottlenecks and rigid top-down management and empower data engineers to autonomously produce their data; to seamlessly exchange and integrate data even outside of the company; to enhance collaboration between domain experts and data engineers; to build knowledge graphs so data scientists can get the most out of their LLMs.
+
+      I am particularly familiar with the Semantic Web technology stack (RDF(S), OWL, SHACL, SPARQL, etc.) and LinkML for data and information modeling, and with Data Mesh for a bottom-up, decentralized architecture, but since I have a firm grasp of the underlying principles I can easily adapt to different technologies and paradigms. I also have experience writing software which transforms data models from one metamodel to another, e.g. transform a SHACL shapes graph to an Avro schema.
       
       As a colleague I really like helping others. I’m patient and a careful listener. I’m not very fond of chit-chat, but if we share an interest or have a similar sense of humor you’ll probably find me a lot more talkative.
       
@@ -81,14 +83,13 @@ education:
 experiences:
     title: Experiences
     info:
-        - role: Software Engineer / Data Architect
+        - role: Data Architect / Software Developer
           time: 2022 - now
           company: Alliander
           details: |
-            I fulfil a dual role in which I am both a Software Engineer and a Data Architect.
-            - I developed an open source project called Metamorph (see *Projects* below) to generate Avro schemas from SHACL models. The idea was to extend this functionality with the ability to generate other technical schemas as well, such as SQL DDL, but this never passed the prototyping stage. This project is written in Clojure.
-            - Working with Semantic Web technology (with RDF at its core), I have to also master the fundamentals of that stack, including understanding how Data Architecture is done in a decentralized way with Linked Data.
-            - I've become well acquainted with modeling languages such as the Web Ontology Language (OWL) for very expressive conceptual modeling and the Shapes Constraint Language (SHACL) for modeling logical data models in a closed world.
+            - I've collaborated with other architects and teams to implement a Data Mesh architecture in the organization. Thanks to my technical background, I can speak the language of both business and IT, which really helps to bridge the gap.
+           - I am one of the few experts in using the Semantic Web technology stack for our data and information modeling to facilitate strong and formal semantics, flexible decoupling of conceptual from logical data models and to enable code generation, etc.
+           - I've developed the Metamorph project (written in Clojure), which generates technical schemas from a logical data model in SHACL.
 
         - role: Software Engineer (Backend)
           time: 2019 - 2022
