@@ -3,6 +3,7 @@
 #
 
 sidebar:
+<<<<<<< HEAD
     position: right # position of the sidebar : left or right
     # about: True  # set to `False' or comment line if you want to remove the "how to use?" in the sidebar
     education: True  # set to `False' if you want education in main section instead of in sidebar
@@ -214,5 +215,23 @@ skills:
         - name: XSL / XPath / Regular Expressions
           level: 75%
 
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
