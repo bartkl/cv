@@ -74,7 +74,7 @@
     }
 
     .sub-role {
-      /* break-inside: avoid; */
+      break-inside: avoid;
       margin-bottom: 1.2rem;
     }
 
@@ -89,10 +89,10 @@
       /* background-color: #f0f0f0; */
     }
 
-    h4 small {
+    small {
       font-weight: normal;
       color: #666;
-      /* font-size: 0.9rem; */
+      font-size: 0.85rem;
     }
 
     ul {
@@ -106,21 +106,13 @@
       border-collapse: collapse;
       width: 100%;
       margin-top: 1rem;
-      font-size: 0.9rem;
+      /* font-size: 0.9rem; */
     }
 
-    .past-experiences th,
-    .past-experiences td {
+    /*.past-experiences th,
+    .past-experiences td {*/
+    th, td {
       text-align: left;
-      padding: 0.5rem;
-      vertical-align: top;
-    }
-
-    .past-experiences th {
-      background-color: #f0f0f0;
-    }
-
-    .skills-table td {
       padding: 0.4rem 0.6rem;
       vertical-align: top;
     }
@@ -175,7 +167,7 @@
 
       main {
         column-count: 2;
-        column-gap: 1.5rem; /* narrower gap for print */
+        column-gap: 2.5rem; /* narrower gap for print */
       }
 
       @page {
@@ -188,7 +180,7 @@
       }
 
       section, article, table {
-        /* break-inside: avoid; /* avoid splitting sections across columns */ */
+        /* break-inside: avoid; */ /* avoid splitting sections across columns */
       }
 
       /* Optional: shrink tables for print */
@@ -243,18 +235,11 @@
 
         <h3>Past Experiences</h3>
         <table class="past-experiences">
-          <!--thead>
-            <tr>
-              <th>Role (context)</th>
-              <th>Period</th>
-              <th>Description</th>
-            </tr>
-          </thead-->
           <tbody>
             {% for job in experience.past %}
             <tr>
               <td class="past-experience-title"><strong>{{ job.role }} ({{ job.context}})</strong><br /><small>{{ job.period }}</small></td>
-              <td>{{ job.description }}</td>
+              <td class="past-experience-descr">{{ job.description }}</td>
             </tr>
             {% endfor %}
           </tbody>
@@ -265,12 +250,14 @@
     <section id="skills">
       <h2>Skills & Competencies</h2>
       <table class="skills-table">
-        {% for skill in skills %}
-        <tr>
-          <td class="skill-group"><strong>{{ skill.group }}</strong></td>
-          <td class="skill-items">{{ skill["items"] | join(', ') }}</td>
-        </tr>
-        {% endfor %}
+        <tbody>
+          {% for skill in skills %}
+          <tr>
+            <td class="skill-group"><strong>{{ skill.group }}</strong></td>
+            <td class="skill-items">{{ skill["items"] | join(', ') }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
       </table>
     </section>
 
