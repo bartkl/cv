@@ -1,0 +1,136 @@
+{
+  "header": {
+    "name": "Bart Kleijngeld",
+    "role": "Data Architect | Software Developer"
+  },
+  "lead": " Visionary Data Architect and software developer with deep expertise in information modeling, Semantic Web technologies, and FAIR principles. Skilled in designing scalable, decentralized architectures grounded in Data Mesh and Domain Driven Design, with the ability to also implement end-to-end solutions. Adept at bridging technical and non-technical stakeholders, driving adoption of machine-readable, interoperable data models, and breaking down data silos through Linked Data and knowledge graph initiatives. Proven track record in unifying architecture strategy with business goals while delivering robust, production-grade solutions in cloud, DevOps, and full-stack environments.",
+  "experience": {
+    "alliander": [
+      {
+        "role": "Data Architect / Software Developer",
+        "context": "Netbeheer Nederland",
+        "period": "Sep 2024 – present",
+        "description": [
+          "Designed and developed open source model transformations of CIM and CGMES models for easier use by developers and machine processing.",
+          "Responsible for enablement of modeling, including languages, standards, tooling, and automation.",
+          "Member of the CIM working group improving model maintenance, interoperability, and usability.",
+          "Member of NBEA working group providing advice on information modeling and data architecture."
+        ]
+      },
+      {
+        "role": "Data Architect / Software Developer",
+        "context": "EDSN",
+        "period": "Oct 2024 – Jul 2025",
+        "description": [
+          "Initiated and led a proof of concept to help EDSN adopt modern, machine-readable, standardized information modeling."
+        ]
+      },
+      {
+        "role": "Data Architect / Software Developer",
+        "context": "Researched Center for Digital Technologies",
+        "period": "Oct 2023 – Jul 2024",
+        "description": [
+          "Collaborated with HAN lectorate DKE, combining coordination with hands-on research and implementation.",
+          "Researched LLM-based approaches to build knowledge graphs from wiki and PDF documents."
+        ]
+      },
+      {
+        "role": "Data Architect / Software Developer",
+        "context": "Data Office",
+        "period": "Feb 2022 – Sep 2023",
+        "description": [
+          "Created standards-based definitions of data products for cataloging and governance.",
+          "Built software to generate technical schemas from information models.",
+          "Contributed to metadata-driven Data Mesh design based on FAIR principles and Linked Data."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "context": "Team FAAM",
+        "period": "Jul 2019 - Feb 2022",
+        "description": [
+          "Co-developed API and libraries to support image recognition model workflows.",
+          "Maintained DevOps work using Jenkins, Kubernetes, and Git."
+        ]
+      },
+      {
+        "role": "Test Automation Engineer / Software Developer",
+        "context": "Realisatieketen KV",
+        "period": "Jul 2019 - Feb 2022",
+        "description": [
+          "Developed business-friendly test suites and reusable test code for SOAP messaging through DSP.",
+          "Built an end-to-end testing application (fontend and backend) from requirements to implementation."
+        ]
+      }
+    ],
+    "past": [
+      {
+        "role": "Web Developer",
+        "context": "Ensie",
+        "period": "Jun 2016 – Sep 2016",
+        "description": "Developed new features for the website."
+      },
+      {
+        "role":  "Developer",
+        "context": "Clipit News B.V.",
+        "period": "Apr 2015 – Sep 2016",
+        "description": "Wrote XSL template to scrape websites and created a web application to help the team manage the workload."
+      },
+      {
+        "role": "Web Developer",
+        "context": "HostingXS B.V.",
+        "period": "Apr 2014 – Jul 2014",
+        "description": "Developed new features for the customer control panel."
+      },
+      {
+        "role": "Web Developer",
+        "context": "Emixion",
+        "period": "Aug 2013 – Sep 2013",
+        "description": "Built customer websites."
+      },
+      {
+        "role": "Lead Customer Service / Software Developer",
+        "context": "e-cube",
+        "period": "Apr 2015 – Sep 2016",
+        "description": "Wrote BI applications (Kettle), maintained wiki and was lead of the service desk."
+      }
+    ]
+  },
+  "education": [
+      {
+          "study": "Mathematics",
+          "institution": "Radboud University Nijmegen",
+          "period": "2006-2011",
+          "description": "Trained to think like a mathematician and solve challenging, abstract problems. Also followed programming and CS courses."
+      },
+      {
+          "study": "Mathematics Teacher Education",
+          "institution": "HAN University of Applied Sciences",
+          "period": "2005-2006",
+          "description": "I completed the first year and then enrolled at the Radboud University."
+      }
+  ],
+  "skills": [
+    {
+      "group": "Data modeling and knowledge representation",
+      "items": ["Semantic Web technology", "RDF(S)", "SKOS", "OWL", "SHACL", "SPARQL", "LinkML", "UML", "SQL DDL", "FAIR", "DCAT", "QUDT", "COOL-URIs", "IEC CIM", "programmatic use of LLMs", "symbolic reasoning"]
+    },
+    {
+      "group": "Data/IT architecture",
+      "items": ["REST", "Domain Driven Design", "Data Mesh", "OOP", "WSDL/SOAP"]
+    },
+    {
+      "group": "Software Development and DevOps",
+      "items": ["Model-to-model transformations", "Python", "Clojure", "Docker", "Linux", "GitHub Actions", "AsciiDoc"]
+    },
+    {
+      "group": "Writing and communicating",
+      "items": ["Cross-functional collaboration", "technical writing", "presenting/teaching"]
+    },
+    {
+      "group": "Soft skills",
+      "items": ["Dutch (native)", "English (fluent)"]
+    }
+  ]
+}
+
