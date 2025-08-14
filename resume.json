@@ -8,18 +8,18 @@
     "alliander": [
       {
         "role": "Data Architect / Software Developer",
-        "context": "Netbeheer Nederland",
+        "context": "NBNL",
         "period": "Sep 2024 – present",
         "description": [
-          "Designed and developed open source model transformations of CIM and CGMES models for easier use by developers and machine processing.",
           "Responsible for enablement of modeling, including languages, standards, tooling, and automation.",
-          "Member of the CIM working group improving model maintenance, interoperability, and usability.",
+          "Developed model transformations of CIM/CGMES models for easier use by developers and machines.",
+          "Member of CIM working group improving model maintenance, interoperability and usability.",
           "Member of NBEA working group providing advice on information modeling and data architecture."
         ]
       },
       {
         "role": "Data Architect / Software Developer",
-        "context": "EDSN",
+        "context": "Energie Data Services Nederland",
         "period": "Oct 2024 – Jul 2025",
         "description": [
           "Initiated and led a proof of concept to help EDSN adopt modern, machine-readable, standardized information modeling."
@@ -27,11 +27,11 @@
       },
       {
         "role": "Data Architect / Software Developer",
-        "context": "Researched Center for Digital Technologies",
+        "context": "Research Center for Digital Technologies",
         "period": "Oct 2023 – Jul 2024",
         "description": [
-          "Collaborated with HAN lectorate DKE, combining coordination with hands-on research and implementation.",
-          "Researched LLM-based approaches to build knowledge graphs from wiki and PDF documents."
+          "Colleborated with students and PhDs from HAN Data & Knowledge Engineering, combining coordination with hands-on research and implementation.",
+          "Researched LLM-based approaches to generate knowledge graphs from wiki and PDF documents."
         ]
       },
       {
@@ -39,9 +39,9 @@
         "context": "Data Office",
         "period": "Feb 2022 – Sep 2023",
         "description": [
-          "Created standards-based definitions of data products for cataloging and governance.",
-          "Built software to generate technical schemas from information models.",
-          "Contributed to metadata-driven Data Mesh design based on FAIR principles and Linked Data."
+          "Wrote W3C standards-compliant definitions including a URI policy and DCAT-based data product specification.",
+          "Developed software to generate technical schemas from information models.",
+          "Designed metadata-driven Data Mesh architecture based on FAIR principles and Linked Data."
         ]
       },
       {
@@ -58,8 +58,8 @@
         "context": "Realisatieketen KV",
         "period": "Jul 2019 - Feb 2022",
         "description": [
-          "Developed business-friendly test suites and reusable test code for SOAP messaging through DSP.",
-          "Built an end-to-end testing application (fontend and backend) from requirements to implementation."
+          "Developed business-friendly test suites and reusable test code for SOAP messaging through Digitaal Samenwerkingsplatform (DSP).",
+          "Built an end-to-end testing application (frontend and backend) from requirements to implementation."
         ]
       }
     ],
@@ -92,7 +92,7 @@
         "role": "Lead Customer Service / Software Developer",
         "context": "e-cube",
         "period": "Apr 2015 – Sep 2016",
-        "description": "Wrote BI applications (Kettle), maintained wiki and was lead of the service desk."
+        "description": "Wrote low-code BI applications, maintained wiki and was lead of the service desk."
       }
     ]
   },

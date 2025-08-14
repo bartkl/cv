@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ header.name }} - CV</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -12,18 +13,31 @@
       margin: 0;
       padding: 0;
       line-height: 1.4;
-      color: #333;
+      color: #515151;
       background: #fff;
+    }
+
+    a {
+      color: #515151;
     }
 
     header {
       /* text-align: center; */
+      display: flex;
+      align-items: center;
       padding: 1rem 1rem;
+      justify-content: space-between;
       /* background: #f5f5f5; */
       margin: auto;
       margin-bottom: 1rem;
       max-width: 1200px;
       border-bottom: 2px solid #ddd;
+    }
+
+    header .text-block {
+      flex: 1;
+      /* max-width: calc(100% - 110px); */ /* prevent overlap with photo */
+
     }
 
     #role {
@@ -158,6 +172,20 @@
         display: block;
     }
 
+    .profile-photo {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+
+    .logo {
+        height: 1em;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+    }
+
     @media print {
       body {
         font-size: 11pt; /* smaller than screen size */
@@ -195,16 +223,26 @@
       #lead-flow {
           display: none;
       }
+      .profile-photo {
+          width: 70px;
+          height: 70px;
+      }
+      .logo {
+          height: 0.8em;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>{{ header.name }}</h1>
-    <div id="role">{{ header.role }}</div>
-    <address>
-        👨 he/him | 🏠 Lelystad, the Netherlands | 📧 <a href="mailto:bartkl@gmail.com">bartkl@gmail.com</a> | 🌐 <a href="https://www.bartkl.com" target="_blank" rel="noopener">bartkl.com</a>
-    </address>
+    <img src="https://www.bartkl.com/cv/assets/images/bart.png" alt="Profile photo" class="profile-photo">
+    <div class="text-block">
+      <h1>{{ header.name }}</h1>
+      <div id="role">{{ header.role }}</div>
+      <address>
+          <i class="fa-solid fa-person"></i> he/him | <i class="fa-solid fa-house"></i> Lelystad, the Netherlands | <i class="fa-solid fa-envelope"></i> <a href="mailto:bartkl@gmail.com">bartkl@gmail.com</a> | <i class="fa-solid fa-globe"></i> <a href="https://www.bartkl.com" target="_blank" rel="noopener">bartkl.com</a> | <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/bartkl">bartkl</a>
+      </address>
+    </div>
   </header>
   <p id="lead-span" class="lead">
     {{ lead }}
@@ -247,19 +285,27 @@
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills"><!-- TODO: Move to fixed right column perhaps? Adjacent to Work experience (on the left) -->
       <h2>Skills & Competencies</h2>
       <table class="skills-table">
         <tbody>
           {% for skill in skills %}
           <tr>
             <td class="skill-group"><strong>{{ skill.group }}</strong></td>
-            <td class="skill-items">{{ skill["items"] | join(', ') }}</td>
+            <td class="skill-items">
+              {{ skill["items"] | join(', ') }}
+              {#<ul style="column-count: 2; list-style: none">
+              {% for item in skill["items"] %}
+                <li>{{ item }}</li>
+              {% endfor %}
+              </ul>#}
+            </td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
     </section>
+
 
     <section id="education">
       <h2>Education</h2>
