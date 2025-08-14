@@ -70,9 +70,11 @@
       color: #515151;
     }
 
+    /*
     main > section:first-child > h2:first-child {
       margin-top: 0;
     }
+    */
 
     h2 {
       font-weight: 200;
@@ -144,7 +146,7 @@
     }
 
     .past-experiences {
-      /* font-size: 0.9rem; */
+      font-size: 0.85rem;
     }
 
     .past-experience-title {
@@ -211,11 +213,6 @@
         /* break-inside: avoid; */ /* avoid splitting sections across columns */
       }
 
-      /* Optional: shrink tables for print */
-      table {
-        font-size: 10pt;
-      }
-
       #lead-span {
           display: block;
       }
@@ -223,10 +220,12 @@
       #lead-flow {
           display: none;
       }
+
       .profile-photo {
           width: 70px;
           height: 70px;
       }
+
       .logo {
           height: 0.8em;
       }
@@ -292,14 +291,7 @@
           {% for skill in skills %}
           <tr>
             <td class="skill-group"><strong>{{ skill.group }}</strong></td>
-            <td class="skill-items">
-              {{ skill["items"] | join(', ') }}
-              {#<ul style="column-count: 2; list-style: none">
-              {% for item in skill["items"] %}
-                <li>{{ item }}</li>
-              {% endfor %}
-              </ul>#}
-            </td>
+            <td class="skill-items">{{ skill["items"] | join(', ') }}</td>
           </tr>
           {% endfor %}
         </tbody>

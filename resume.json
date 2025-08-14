@@ -56,7 +56,7 @@
       {
         "role": "Test Automation Engineer / Software Developer",
         "context": "Realisatieketen KV",
-        "period": "Jul 2019 - Feb 2022",
+        "period": "Nov 2017 - Jul 2019",
         "description": [
           "Developed business-friendly test suites and reusable test code for SOAP messaging through Digitaal Samenwerkingsplatform (DSP).",
           "Built an end-to-end testing application (frontend and backend) from requirements to implementation."
@@ -74,7 +74,7 @@
         "role":  "Developer",
         "context": "Clipit News B.V.",
         "period": "Apr 2015 – Sep 2016",
-        "description": "Wrote XSL template to scrape websites and created a web application to help the team manage the workload."
+        "description": "Wrote XSL templates to scrape websites and initiated and created a web application to help the team manage the workload."
       },
       {
         "role": "Web Developer",
@@ -89,10 +89,10 @@
         "description": "Built customer websites."
       },
       {
-        "role": "Lead Customer Service / Software Developer",
+        "role": "Software Developer / Lead Customer Service",
         "context": "e-cube",
-        "period": "Apr 2015 – Sep 2016",
-        "description": "Wrote low-code BI applications, maintained wiki and was lead of the service desk."
+        "period": "Apr 2011 – Feb 2013",
+        "description": "Wrote BI applications for web shops, maintained wiki and was lead of the service desk."
       }
     ]
   },
