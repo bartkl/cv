@@ -3,7 +3,7 @@
     "name": "Bart Kleijngeld",
     "role": "Data Architect | Software Developer"
   },
-  "lead": "Data Architect and Software Developer with expertise in semantic modeling, knowledge graphs, Linked Data and decentralized architectures. Skilled at designing, implementing and explaining high quality, pragmatic solutions that are simple, scalable and maintainable. Passionate about enabling others to work more efficiently and enhance collaboration, whilst bridging the gap between technical and non-technical stakeholders.",
+  "lead": "Data Architect and Software Developer with expertise in semantic (data) modeling, knowledge graphs, Linked Data and decentralized architectures. Skilled at designing, implementing and explaining high quality, pragmatic solutions that are simple, scalable and maintainable. Passionate about enabling others to work more efficiently and enhance collaboration, whilst bridging the gap between technical and non-technical stakeholders.",
   "experience": {
     "alliander": [
       {
@@ -11,8 +11,8 @@
         "context": "NBNL",
         "period": "Sep 2024 – present",
         "description": [
-          "Responsible for enablement of modeling, including languages, standards, tooling, and automation.",
-          "Developed model transformations of CIM/CGMES models for easier use by developers and machines.",
+          "Responsible for enablement of modeling and documentation, including languages, standards, tooling, and process automation.",
+          "Transformation of CIM/CGMES models to open source Linked Data format for easier use by developers and machines.",
           "Member of CIM working group improving model maintenance, interoperability and usability.",
           "Member of NBEA working group providing advice on information modeling and data architecture."
         ]
@@ -112,24 +112,20 @@
   ],
   "skills": [
     {
-      "group": "Data modeling and knowledge representation",
-      "items": ["Semantic Web technology", "RDF(S)", "SKOS", "OWL", "SHACL", "SPARQL", "LinkML", "UML", "SQL DDL", "FAIR", "DCAT", "QUDT", "COOL-URIs", "IEC CIM", "programmatic use of LLMs", "symbolic reasoning"]
+      "group": "Data/information modeling and standards",
+      "items": ["FAIR", "W3C", "Semantic Web (RDF(S), SKOS, OWL, SHACL, etc.)", "Linked Data", "DCAT", "LinkML", "UML", "IEC CIM", "SQL DDL", "Avro schema", "OpenAPI/JSON Schema", "Knowledge Graphs"]
     },
     {
-      "group": "Data/IT architecture",
-      "items": ["REST", "Domain Driven Design", "Data Mesh", "OOP", "WSDL/SOAP"]
+      "group": "Architecture",
+      "items": ["Web Architecture", "REST", "Domain Driven Design", "Data Mesh", "Object Oriented Programming"]
     },
     {
-      "group": "Software Development and DevOps",
-      "items": ["Model-to-model transformations", "Python", "Clojure", "Docker", "Linux", "GitHub Actions", "AsciiDoc"]
+      "group": "Software development and DevOps",
+      "items": ["(Meta)model transformations", "Python", "Clojure", "Docker", "Linux", "GitHub Actions", "AsciiDoc", "Functional Progamming", "REST APIs"]
     },
     {
-      "group": "Writing and communicating",
-      "items": ["Cross-functional collaboration", "technical writing", "presenting/teaching"]
-    },
-    {
-      "group": "Soft skills",
-      "items": ["Dutch (native)", "English (fluent)"]
+      "group": "Languages and soft skills",
+      "items": ["Dutch (native)", "English (fluent)", "teaching/educating", "cross-functional collaboration", "technical writing"]
     }
   ]
 }
