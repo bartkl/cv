@@ -8,11 +8,25 @@ The source code consists of:
 
 ## Rendering
 
+
+### HTML
+
 To render a new resume HTML file, run:
 
 ```bash
 $ jinja -d data.json -o index.html resume.html.jinja2
 ```
+
+### PDF
+
+From the HTML file, a PDF file can be rendered:
+
+```bash
+$ weasyprint index.html resume.pdf
+```
+
+> [!tip]
+> It is also possible to _Print to PDF_ in the browser, but so far the results have been less impressive than those from using `weasyprint`.
 
 ## Serving
 
