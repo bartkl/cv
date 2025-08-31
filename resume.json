@@ -3,18 +3,19 @@
     "name": "Bart Kleijngeld",
     "role": "Data Architect | Software Developer"
   },
-  "lead": "Data Architect and Software Developer with expertise in semantic (data) modeling, knowledge graphs, Linked Data and decentralized architectures. Skilled at designing, implementing and explaining high quality, pragmatic solutions that are simple, scalable and maintainable. Passionate about enabling others to work more efficiently and enhance collaboration, whilst bridging the gap between technical and non-technical stakeholders.",
+  "lead": "Data Architect and Software Developer with expertise in semantic modeling, knowledge graphs, Linked Data, and decentralized architectures. Skilled at designing, implementing and explaining high quality, pragmatic solutions that are simple, scalable and maintainable. Passionate about enabling others to work more efficiently and enhance collaboration, whilst bridging the gap between technical and non-technical stakeholders.",
   "experience": {
     "alliander": [
       {
         "role": "Data Architect / Software Developer",
-        "context": "NBNL",
+        "context": "Netbeheer Nederland",
         "period": "Sep 2024 – present",
         "description": [
-          "Responsible for enablement of modeling and documentation, including languages, standards, tooling, and process automation.",
-          "Transformation of CIM/CGMES models to open source Linked Data format for easier use by developers and machines.",
-          "Member of CIM working group improving model maintenance, interoperability and usability.",
-          "Member of NBEA working group providing advice on information modeling and data architecture."
+          "Enabled semantic modeling and documentation including the choice of languages and standards, tooling, and process automation.",
+          "Transformation of CIM/CGMES models into open-source Linked Data formats for easier use by developers and machines.",
+          "Contributed to a CIM working group to improve model maintenance, interoperability, and usability.",
+          "Provided advice on information modeling and data architecture as a member of a NBEA working group."
+
         ]
       },
       {
@@ -22,7 +23,7 @@
         "context": "Energie Data Services Nederland",
         "period": "Oct 2024 – Jul 2025",
         "description": [
-          "Initiated and led a proof of concept to help EDSN adopt modern, machine-readable, standardized information modeling."
+          "Initiated and led a proof of concept to help EDSN adopt modern, machine-readable, and standardized information modeling."
         ]
       },
       {
@@ -30,8 +31,8 @@
         "context": "Research Center for Digital Technologies",
         "period": "Oct 2023 – Jul 2024",
         "description": [
-          "Colleborated with students and PhDs from HAN Data & Knowledge Engineering, combining coordination with hands-on research and implementation.",
-          "Researched LLM-based approaches to generate knowledge graphs from wiki and PDF documents."
+          "Collaborated with students and PhDs from HAN Data & Knowledge Engineering, balancing coordination with hands-on research and implementation.",
+          "Explored LLM-based approaches to generate knowledge graphs from wiki and PDF documents."
         ]
       },
       {
@@ -39,7 +40,7 @@
         "context": "Data Office",
         "period": "Feb 2022 – Sep 2023",
         "description": [
-          "Wrote W3C standards-compliant definitions including a URI policy and DCAT-based data product specification.",
+          "Authored W3C standards-compliant definitions including a URI policy and DCAT-based data product specification.",
           "Developed software to generate technical schemas from information models.",
           "Designed metadata-driven Data Mesh architecture based on FAIR principles and Linked Data."
         ]
@@ -50,7 +51,7 @@
         "period": "Jul 2019 - Feb 2022",
         "description": [
           "Co-developed API and libraries to support image recognition model workflows.",
-          "Maintained DevOps work using Jenkins, Kubernetes, and Git."
+          "Maintained DevOps using Jenkins, Kubernetes, and Git."
         ]
       },
       {
@@ -58,7 +59,7 @@
         "context": "Realisatieketen KV",
         "period": "Nov 2017 - Jul 2019",
         "description": [
-          "Developed business-friendly test suites and reusable test code for SOAP messaging through Digitaal Samenwerkingsplatform (DSP).",
+          "Developed business-friendly test suites and reusable test code for SOAP messaging on the Digitaal Samenwerkingsplatform (DSP).",
           "Built an end-to-end testing application (frontend and backend) from requirements to implementation."
         ]
       }
@@ -74,7 +75,7 @@
         "role":  "Developer",
         "context": "Clipit News B.V.",
         "period": "Apr 2015 – Sep 2016",
-        "description": "Wrote XSL templates to scrape websites and initiated and created a web application to help the team manage the workload."
+        "description": "Wrote XSL templates to scrape websites and initiated and developed a web application to help the team manage the workload."
       },
       {
         "role": "Web Developer",
@@ -101,31 +102,35 @@
           "study": "Mathematics",
           "institution": "Radboud University Nijmegen",
           "period": "2006-2011",
-          "description": "Trained to think like a mathematician and solve challenging, abstract problems. Also followed programming and CS courses."
+          "description": "Developed strong problem-solving skills by tackling challenging, abstract mathematical problems. Also followed programming and CS courses."
       },
       {
           "study": "Mathematics Teacher Education",
           "institution": "HAN University of Applied Sciences",
           "period": "2005-2006",
-          "description": "I completed the first year and then enrolled at the Radboud University."
+          "description": "Completed the first year and then enrolled at Radboud University."
       }
   ],
   "skills": [
     {
-      "group": "Data/information modeling and standards",
-      "items": ["FAIR", "W3C", "Semantic Web (RDF(S), SKOS, OWL, SHACL, etc.)", "Linked Data", "DCAT", "LinkML", "UML", "IEC CIM", "SQL DDL", "Avro schema", "OpenAPI/JSON Schema", "Knowledge Graphs"]
+      "group": "Data / information modeling and standards",
+      "items": ["FAIR", "W3C", "Semantic Web (RDF(S), SKOS, OWL, SHACL)", "Linked Data", "DCAT", "LinkML", "UML", "IEC CIM", "SQL DDL", "Avro Schema", "OpenAPI / JSON Schema", "Knowledge Graphs"]
     },
     {
       "group": "Architecture",
-      "items": ["Web Architecture", "REST", "Domain Driven Design", "Data Mesh", "Object Oriented Programming"]
+      "items": ["Web Architecture", "REST", "Domain-Driven Design", "Data Mesh", "Object-Oriented Programming"]
     },
     {
       "group": "Software development and DevOps",
-      "items": ["(Meta)model transformations", "Python", "Clojure", "Docker", "Linux", "GitHub Actions", "AsciiDoc", "Functional Progamming", "REST APIs"]
+      "items": ["Model and metamodel transformations", "Python", "Clojure", "Docker", "Linux", "GitHub Actions", "AsciiDoc", "Functional Programming", "REST APIs"]
     },
     {
-      "group": "Languages and soft skills",
-      "items": ["Dutch (native)", "English (fluent)", "teaching/educating", "cross-functional collaboration", "technical writing"]
+      "group": "Languages",
+      "items": ["Dutch (native)", "English (fluent)"]
+    },
+    {
+      "group": "Soft skills",
+      "items": ["Teaching and presenting", "Advising", "Cross-functional collaboration", "Technical writing"]
     }
   ]
 }
