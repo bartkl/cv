@@ -14,7 +14,7 @@ The source code consists of:
 To render a new resume HTML file, run:
 
 ```bash
-$ jinja -d data.json -o index.html resume.html.jinja2
+$ jinja2 resume.html.jinja2 data.yml > index.html
 ```
 
 ### PDF
@@ -30,4 +30,4 @@ $ weasyprint index.html resume.pdf
 
 ## Serving
 
-GitHub Pages will pick up on the `index.html` file and serve its contents.
+GitHub Pages will pick up on the `index.html` file on the `main` branch and serve it.
